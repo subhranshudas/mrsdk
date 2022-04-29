@@ -1,6 +1,6 @@
 {
   "name": "@dasubh/mrsdk-uiweb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "uiweb for react components",
   "main": "dist/mrsdk.uiweb.cjs.js",
   "module": "dist/mrsdk.uiweb.esm.js",
