@@ -1,0 +1,30 @@
+{
+  "name": "@dasubh/mrsdk-api",
+  "version": "0.0.0",
+  "description": "rest api client lib",
+  "main": "dist/mrsdk.api.cjs.js",
+  "module": "dist/mrsdk.api.esm.js",
+  "browser": "dist/mrsdk.api.umd.js",
+  "files": [
+    "dist"
+  ],
+  "author": "dasubh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ms": "^0.7.31",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && rollup -c",
+    "dev": "rollup -c -w",
+    "clean": "rimraf ./dist"
+  }
+}

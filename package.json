@@ -1,0 +1,20 @@
+{
+  "name": "@dasubh/mrsdk",
+  "version": "1.0.0",
+  "description": "poc for monorepo sdk with ci",
+  "main": "index.js",
+  "private": true,
+  "author": "dasubh",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  }
+}
