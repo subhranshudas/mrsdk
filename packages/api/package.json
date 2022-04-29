@@ -10,6 +10,10 @@
   ],
   "author": "dasubh",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@types/ms": "^0.7.31",
     "dotenv": "^16.0.0",
