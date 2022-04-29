@@ -1,6 +1,6 @@
 {
   "name": "@dasubh/mrsdk-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "util functions",
   "main": "dist/mrsdk.utils.cjs.js",
   "module": "dist/mrsdk.utils.esm.js",
