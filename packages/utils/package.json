@@ -5,7 +5,6 @@
   "main": "dist/mrsdk.utils.cjs.js",
   "module": "dist/mrsdk.utils.esm.js",
   "browser": "dist/mrsdk.utils.umd.js",
-  "type": "commonjs",
   "files": [
     "dist"
   ],
