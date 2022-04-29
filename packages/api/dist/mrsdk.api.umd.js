@@ -1,1 +1,0 @@
-!function(o){"function"==typeof define&&define.amd?define(o):o()}((function(){"use strict";console.log("@mrsdk-utils: calling code from packages/utils");console.log("@mrsdk-api: calling code from packages/api"),console.log("-----------"),console.log("Utils.greet() says Hi!")}));
