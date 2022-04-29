@@ -1,6 +1,6 @@
 {
   "name": "@dasubh/mrsdk-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rest api client lib",
   "main": "dist/mrsdk.api.cjs.js",
   "module": "dist/mrsdk.api.esm.js",
