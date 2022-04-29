@@ -27,7 +27,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
     - name: Bootstrap lerna
-        working-directory: ui
         run: yarn bootstrap
 
     - name: "Version and publish"
